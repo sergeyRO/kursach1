@@ -75,7 +75,7 @@ def drop_files(list_files):
 
 if __name__ == '__main__':
     TOKEN_VK = 'a67f00c673c3d4b12800dd0ba29579ec56d804f3c5f3bbcef5328d4b3981fa5987b951cf2c8d8b24b9abd'
-    TOKEN_YA_DISK = ''
+    TOKEN_YA_DISK = 'AQAAAAAvigESAADLW_SDgmkCJUIuq3-AUBI_m-Y'
 
     list_files_download = photoVk_to_Disk(TOKEN_VK)
     photoDisk_to_YADisk(TOKEN_YA_DISK, list_files_download)
